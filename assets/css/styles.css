@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     width: 1200px;
     margin: 0-auto;
@@ -15,7 +19,6 @@ body {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: tomato;
 }
 
 body {
@@ -29,6 +32,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
   }
   
   header a {
@@ -39,4 +43,19 @@ header h1 {
       /* apply styles to <header> */
       padding: 20px 35px;
       background-color: #39a6b2;
+  }
+
+  header nav {
+      float: right;
+      margin: 7px 0;
+  }
+
+  header nav ul li {
+      display: inline;
+  }
+
+  header nav ul li a {
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 22px;
   }

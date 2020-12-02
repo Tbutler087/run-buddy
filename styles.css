@@ -15,7 +15,6 @@ body {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: tomato;
 }
 
 body {
@@ -32,11 +31,28 @@ header h1 {
   }
   
   header a {
+      text-decoration: none;
     color: #fce138;
   }
 
+/* apply styles to <header> */
   header {
-      /* apply styles to <header> */
       padding: 20px 35px;
       background-color: #39a6b2;
   }
+
+  header nav {
+      float: right;
+      margin: 7px 0;
+  }
+
+  header nav ul li {
+      display: inline;
+  }
+
+  header nav ul li a {
+      margin: 0 30px
+      font-weight: lighter;
+      font-size: 22px;
+  }
+  
